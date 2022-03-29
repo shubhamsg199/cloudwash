@@ -3,7 +3,7 @@ from dynaconf import Validator
 from cloudwash.logger import logger
 
 # Initialize and Configure Settings
-settings = Dynaconf(envvar_prefix="CLEANUP", settings_file='settings.yaml')
+settings = Dynaconf(envvar_prefix="CLEANUP", settings_file='conf/settings.yaml')
 
 
 def validate_provider(provider_name):
